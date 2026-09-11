@@ -1,6 +1,6 @@
-# DAIR Daily Papers
+# Daily AI Paper Experiments
 
-Daily digests from [dair-ai/AI-Papers-of-the-Week](https://github.com/dair-ai/AI-Papers-of-the-Week): one unread paper from the latest week, a written summary, and a basic educational implementation.
+Daily AI paper experiments from [dair-ai/AI-Papers-of-the-Week](https://github.com/dair-ai/AI-Papers-of-the-Week): one unread paper from the latest week, a written summary, and a basic educational implementation.
 
 ## Layout
 
