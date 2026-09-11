@@ -1,4 +1,0 @@
-# Pin lightly; install on the pod when you actually run.
-# vllm>=0.6.0
-# transformers>=4.44.0
-# torch  # come from the pod image

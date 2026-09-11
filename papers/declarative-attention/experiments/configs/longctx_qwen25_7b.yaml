@@ -1,0 +1,18 @@
+# Long-context experiment — larger magic-chunk document
+name: longctx_qwen25_7b
+model_id: Qwen/Qwen2.5-7B-Instruct
+backend: auto
+max_model_len: 32768
+max_new_tokens: 1024
+temperature: 0.0
+n_chunks: 48
+# ~24k words → tens of thousands of tokens
+chunk_size: 512
+question: How many years after founding did Acme go public?
+
+resources:
+  gpu: "1x A100 80GB (preferred) or A6000 48GB"
+  vram_gb: 48
+  ram_gb: 64
+  disk_gb: 80
+  wall_time: "1–3 h"

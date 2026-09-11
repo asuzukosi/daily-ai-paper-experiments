@@ -1,0 +1,13 @@
+# Core (CPU demo needs none of these — stdlib only via demos/cpu_protocol_demo.py)
+pyyaml>=6.0
+
+# GPU experiments (install on RunPod via runpod/01_setup_env.sh)
+torch>=2.2.0
+transformers>=4.44.0
+accelerate>=0.33.0
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+huggingface_hub>=0.24.0
+
+# Optional faster inference
+# vllm>=0.6.0

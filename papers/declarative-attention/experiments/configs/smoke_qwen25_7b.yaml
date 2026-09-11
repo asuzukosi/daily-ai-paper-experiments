@@ -1,0 +1,20 @@
+# Smoke test — short synthetic context, Qwen2.5-7B-Instruct
+name: smoke_qwen25_7b
+model_id: Qwen/Qwen2.5-7B-Instruct
+# auto | transformers | vllm
+backend: auto
+max_model_len: 8192
+max_new_tokens: 512
+temperature: 0.0
+n_chunks: 12
+# words per magic chunk (demo-scale)
+chunk_size: 256
+question: How many years after founding did Acme go public?
+
+# Resource hints (see RESOURCES.md)
+resources:
+  gpu: "1x RTX 4090 / A6000 / L40"
+  vram_gb: 24
+  ram_gb: 32
+  disk_gb: 40
+  wall_time: "15–40 min first run (download) / ~5–10 min after"
