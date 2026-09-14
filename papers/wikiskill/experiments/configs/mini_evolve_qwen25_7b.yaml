@@ -1,0 +1,16 @@
+name: mini_evolve_qwen25_7b
+backend: transformers
+model_id: Qwen/Qwen2.5-7B-Instruct
+K: 3
+max_new_tokens: 512
+temperature: 0.2
+torch_dtype: bfloat16
+task_dir: tasks/mini_livemath
+artifacts_subdir: mini_evolve_gpu
+eval_test_each_iter: true
+resources:
+  gpu: "1x RTX 4090 / A6000 / L40"
+  vram_gb: "24+"
+  ram_gb: "32+"
+  disk_gb: "60+"
+  wall_clock: "45-150 min depending on cache and K"

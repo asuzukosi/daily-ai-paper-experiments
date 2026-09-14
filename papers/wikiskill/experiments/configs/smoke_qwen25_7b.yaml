@@ -1,0 +1,17 @@
+name: smoke_qwen25_7b
+backend: transformers
+model_id: Qwen/Qwen2.5-7B-Instruct
+K: 1
+max_new_tokens: 256
+temperature: 0.2
+torch_dtype: bfloat16
+task_dir: tasks/mini_livemath
+artifacts_subdir: smoke_gpu
+# smoke mode: check CUDA + load tokenizer; skip full model download if WIKISKILL_SMOKE_SKIP_LOAD=1
+smoke_skip_model_load: false
+resources:
+  gpu: "1x RTX 4090 / A6000 / L40"
+  vram_gb: "24+"
+  ram_gb: "32+"
+  disk_gb: "50+"
+  wall_clock: "20-45 min first run (HF download); ~10-20 min cached"

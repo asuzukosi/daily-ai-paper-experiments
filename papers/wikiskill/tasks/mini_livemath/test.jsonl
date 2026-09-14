@@ -1,0 +1,18 @@
+{"id": "e01", "question": "Kai has 11 stamps and buys 9 more. How many stamps?", "answer": "20", "tags": ["easy", "add"], "split": "test"}
+{"id": "e02", "question": "A farm collected 52 eggs before noon and 41 after. Total eggs?", "answer": "93", "tags": ["arith", "add"], "split": "test"}
+{"id": "e03", "question": "What is 21 + 31?", "answer": "52", "tags": ["format", "add"], "split": "test"}
+{"id": "e04", "question": "Parcels weigh 8 kg and 17 kg. Total kg? Number only.", "answer": "25", "tags": ["unit", "add"], "split": "test"}
+{"id": "e05", "question": "50 balloons; 22 pop. How many remain?", "answer": "28", "tags": ["easy", "sub"], "split": "test"}
+{"id": "e06", "question": "Printer prints 22 pages/min for 5 minutes, then 8 more. Total pages?", "answer": "118", "tags": ["arith", "mul"], "split": "test"}
+{"id": "e07", "question": "What is 7 \u00d7 8?", "answer": "56", "tags": ["format", "mul"], "split": "test"}
+{"id": "e08", "question": "Path is 25 m; 9 m walked. Remaining m? Number only.", "answer": "16", "tags": ["unit", "sub"], "split": "test"}
+{"id": "e09", "question": "5 shelves with 6 books each. Total books?", "answer": "30", "tags": ["easy", "mul"], "split": "test"}
+{"id": "e10", "question": "3 sandwiches at $5 and 2 drinks at $3. Total dollars?", "answer": "21", "tags": ["arith", "money"], "split": "test"}
+{"id": "e11", "question": "What is 70 \u2212 26?", "answer": "44", "tags": ["format", "sub"], "split": "test"}
+{"id": "e12", "question": "Barrel has 60 liters; 22 used. Liters left? Number only.", "answer": "38", "tags": ["unit", "sub"], "split": "test"}
+{"id": "e13", "question": "Find 4 + 6 + 8.", "answer": "18", "tags": ["easy", "add"], "split": "test"}
+{"id": "e14", "question": "Inventory: 150 items, sell 40, sell 25, receive 20. Items now?", "answer": "105", "tags": ["arith", "multi"], "split": "test"}
+{"id": "e15", "question": "What is 16 + 26?", "answer": "42", "tags": ["format", "add"], "split": "test"}
+{"id": "e16", "question": "Three bags of 4 kg each. Total kg? Number only.", "answer": "12", "tags": ["unit", "mul"], "split": "test"}
+{"id": "e17", "question": "Priya has 14 pencils and finds 5. How many now?", "answer": "19", "tags": ["easy", "add"], "split": "test"}
+{"id": "e18", "question": "A rectangle is 9 by 4. What is the area?", "answer": "36", "tags": ["easy", "mul"], "split": "test"}
