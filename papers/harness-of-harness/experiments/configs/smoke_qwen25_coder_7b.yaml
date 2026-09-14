@@ -1,0 +1,15 @@
+name: smoke_qwen25_coder_7b
+model_id: Qwen/Qwen2.5-Coder-7B-Instruct
+T: 2
+max_new_tokens: 1024
+temperature: 0.2
+max_schema_retries: 2
+task: mini_cli_todo
+primary_module: todo.py
+dtype: bfloat16
+resources:
+  gpu: "1× RTX 4090 / A6000 / L40"
+  vram_gb: 24
+  disk_gb: 50
+  ram_gb: 32
+  wall_time: "20–45 min first run (download) / ~10–20 min after"

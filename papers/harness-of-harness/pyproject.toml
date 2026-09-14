@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "harness-of-harness"
+version = "0.1.0"
+description = "Harness-of-Harness (arXiv:2609.01481) — Planner→Developer→QA loop scaffolding + mini ProgramBench-style experiment"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Kosi Asuzu / DAIR daily papers" }]
+dependencies = [
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+gpu = [
+  "torch>=2.2.0",
+  "transformers>=4.44.0",
+  "accelerate>=0.33.0",
+  "sentencepiece>=0.2.0",
+  "huggingface_hub>=0.24.0",
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
