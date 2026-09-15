@@ -1,0 +1,15 @@
+name: alt_qwen25_coder_14b
+model_id: Qwen/Qwen2.5-Coder-14B-Instruct
+T: 3
+max_new_tokens: 1536
+temperature: 0.2
+max_schema_retries: 3
+task: mini_cli_todo
+primary_module: todo.py
+dtype: bfloat16
+resources:
+  gpu: "1× A100 80GB"
+  vram_gb: 80
+  disk_gb: 100
+  ram_gb: 96
+  wall_time: "1–3 h"
