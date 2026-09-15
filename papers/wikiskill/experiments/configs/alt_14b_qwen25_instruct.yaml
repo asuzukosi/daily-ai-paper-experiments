@@ -1,0 +1,17 @@
+name: alt_14b_qwen25_instruct
+backend: transformers
+model_id: Qwen/Qwen2.5-14B-Instruct
+K: 3
+max_new_tokens: 512
+temperature: 0.2
+torch_dtype: bfloat16
+task_dir: tasks/mini_livemath
+artifacts_subdir: mini_evolve_14b
+eval_test_each_iter: true
+resources:
+  gpu: "1x A100 80GB (or 2x 48GB with device_map)"
+  vram_gb: "80"
+  ram_gb: "96+"
+  disk_gb: "100+"
+  wall_clock: "1-3 h"
+notes: "Optional heavier alt when VRAM allows; primary remains 7B."

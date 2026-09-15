@@ -1,0 +1,32 @@
+{"id": "t01", "question": "Mia has 7 apples and buys 5 more. How many apples does she have?", "answer": "12", "tags": ["easy", "add"], "split": "train"}
+{"id": "t02", "question": "A bakery sold 48 muffins in the morning and 37 in the afternoon. How many muffins were sold in total?", "answer": "85", "tags": ["arith", "add"], "split": "train"}
+{"id": "t03", "question": "What is 15 + 27?", "answer": "42", "tags": ["format", "add"], "split": "train"}
+{"id": "t04", "question": "A package weighs 12 kg and another weighs 9 kg. What is the total weight in kilograms? Report the number only.", "answer": "21", "tags": ["unit", "add"], "split": "train"}
+{"id": "t05", "question": "Tom has 20 stickers and gives away 8. How many remain?", "answer": "12", "tags": ["easy", "sub"], "split": "train"}
+{"id": "t06", "question": "A train travels 120 km, then another 85 km, then 45 km. What is the total distance?", "answer": "250", "tags": ["arith", "add"], "split": "train"}
+{"id": "t07", "question": "Compute 9 \u00d7 8.", "answer": "72", "tags": ["format", "mul"], "split": "train"}
+{"id": "t08", "question": "A rope is 15 m long. You cut off 4 m. How many meters remain? Number only.", "answer": "11", "tags": ["unit", "sub"], "split": "train"}
+{"id": "t09", "question": "There are 6 boxes with 4 pencils each. How many pencils in total?", "answer": "24", "tags": ["easy", "mul"], "split": "train"}
+{"id": "t10", "question": "Sam buys 3 notebooks at $4 each and 2 pens at $3 each. What is the total cost in dollars (number only)?", "answer": "18", "tags": ["arith", "money"], "split": "train"}
+{"id": "t11", "question": "What is 100 \u2212 37?", "answer": "63", "tags": ["format", "sub"], "split": "train"}
+{"id": "t12", "question": "A tank holds 50 liters. 18 liters are used. How many liters remain? Number only.", "answer": "32", "tags": ["unit", "sub"], "split": "train"}
+{"id": "t13", "question": "Lila reads 12 pages on Monday and 15 on Tuesday. How many pages total?", "answer": "27", "tags": ["easy", "add"], "split": "train"}
+{"id": "t14", "question": "A factory produces 25 toys per hour for 6 hours, then 10 more toys as samples. How many toys in total?", "answer": "160", "tags": ["arith", "mul"], "split": "train"}
+{"id": "t15", "question": "What is 14 + 19?", "answer": "33", "tags": ["format", "add"], "split": "train"}
+{"id": "t16", "question": "Temperature rises from 8\u00b0C by 5 degrees. What is the new temperature in \u00b0C? Number only.", "answer": "13", "tags": ["unit", "add"], "split": "train"}
+{"id": "t17", "question": "A class has 30 students; 12 are boys. How many are girls?", "answer": "18", "tags": ["easy", "sub"], "split": "train"}
+{"id": "t18", "question": "Garden A has 45 plants, Garden B has 38, and 7 are moved from A to a third garden. How many plants remain in A and B combined?", "answer": "76", "tags": ["arith", "multi"], "split": "train"}
+{"id": "t19", "question": "What is 6 \u00d7 7?", "answer": "42", "tags": ["format", "mul"], "split": "train"}
+{"id": "t20", "question": "A bottle contains 750 ml. You pour out 250 ml. How many ml remain? Number only.", "answer": "500", "tags": ["unit", "sub"], "split": "train"}
+{"id": "t21", "question": "Find 3 + 5 + 7.", "answer": "15", "tags": ["easy", "add"], "split": "train"}
+{"id": "t22", "question": "Tickets cost $12 each. A family buys 4 tickets and gets a $5 discount. What is the amount paid?", "answer": "43", "tags": ["arith", "money"], "split": "train"}
+{"id": "t23", "question": "What is 81 \u00f7 9?", "answer": "9", "tags": ["format", "div"], "split": "train"}
+{"id": "t24", "question": "A walk is 3 km out and 3 km back. Total kilometers? Number only.", "answer": "6", "tags": ["unit", "add"], "split": "train"}
+{"id": "t25", "question": "There are 10 red and 8 blue marbles. How many marbles altogether?", "answer": "18", "tags": ["easy", "add"], "split": "train"}
+{"id": "t26", "question": "A store had 200 shirts. It sold 75 on Monday and 40 on Tuesday, then received a shipment of 30. How many shirts now?", "answer": "115", "tags": ["arith", "multi"], "split": "train"}
+{"id": "t27", "question": "What is 25 + 17?", "answer": "42", "tags": ["format", "add"], "split": "train"}
+{"id": "t28", "question": "A bag of rice weighs 5 kg. Three bags weigh how many kg? Number only.", "answer": "15", "tags": ["unit", "mul"], "split": "train"}
+{"id": "t29", "question": "Eva has 16 crayons and finds 4 more. How many does she have?", "answer": "20", "tags": ["easy", "add"], "split": "train"}
+{"id": "t30", "question": "A recipe needs 2 cups of flour per batch. For 5 batches plus 1 extra cup for dusting, how many cups are needed?", "answer": "11", "tags": ["arith", "mul"], "split": "train"}
+{"id": "t31", "question": "What is 64 \u2212 19?", "answer": "45", "tags": ["format", "sub"], "split": "train"}
+{"id": "t32", "question": "A shelf is 120 cm long. Books take 45 cm. Free length in cm? Number only.", "answer": "75", "tags": ["unit", "sub"], "split": "train"}

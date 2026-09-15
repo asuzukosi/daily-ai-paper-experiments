@@ -1,0 +1,12 @@
+{"id": "v01", "question": "Nora has 9 candies and gets 6 more. How many candies?", "answer": "15", "tags": ["easy", "add"], "split": "val"}
+{"id": "v02", "question": "A courier delivers 36 parcels in the morning and 29 in the evening. Total parcels?", "answer": "65", "tags": ["arith", "add"], "split": "val"}
+{"id": "v03", "question": "What is 18 + 24?", "answer": "42", "tags": ["format", "add"], "split": "val"}
+{"id": "v04", "question": "Two boxes weigh 14 kg and 11 kg. Total kg? Number only.", "answer": "25", "tags": ["unit", "add"], "split": "val"}
+{"id": "v05", "question": "There are 40 chairs; 13 are taken. How many free chairs?", "answer": "27", "tags": ["easy", "sub"], "split": "val"}
+{"id": "v06", "question": "Workers assemble 18 widgets/hour for 4 hours, then 6 more. Total widgets?", "answer": "78", "tags": ["arith", "mul"], "split": "val"}
+{"id": "v07", "question": "What is 8 \u00d7 9?", "answer": "72", "tags": ["format", "mul"], "split": "val"}
+{"id": "v08", "question": "A cable is 20 m; 7 m are used. Remaining meters? Number only.", "answer": "13", "tags": ["unit", "sub"], "split": "val"}
+{"id": "v09", "question": "4 baskets with 5 oranges each. Total oranges?", "answer": "20", "tags": ["easy", "mul"], "split": "val"}
+{"id": "v10", "question": "Buy 2 books at $9 and 3 markers at $2. Total dollars?", "answer": "24", "tags": ["arith", "money"], "split": "val"}
+{"id": "v11", "question": "What is 90 \u2212 28?", "answer": "62", "tags": ["format", "sub"], "split": "val"}
+{"id": "v12", "question": "Jug holds 40 liters; 15 used. Liters left? Number only.", "answer": "25", "tags": ["unit", "sub"], "split": "val"}
