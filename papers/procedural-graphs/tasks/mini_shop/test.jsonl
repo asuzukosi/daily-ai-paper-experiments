@@ -1,0 +1,6 @@
+{"id": "e01", "query": "Need USB-C hub, must be in stock and <= $42", "gold": "SKU-HUB-7", "budget": 42, "tags": ["usb-c", "hub"]}
+{"id": "e02", "query": "Quiet wireless mouse, verify stock", "gold": "SKU-MS-W", "budget": 29, "tags": ["mouse", "quiet"]}
+{"id": "e03", "query": "Headphones with noise cancelling under $120", "gold": "SKU-HP-NC", "budget": 120, "tags": ["headphones"]}
+{"id": "e04", "query": "Webcam 1080p in stock under $55", "gold": "SKU-WC-1080", "budget": 55, "tags": ["webcam", "1080p"]}
+{"id": "e05", "query": "Aluminum laptop stand in stock under $40 (if OOS pick wireless mouse instead)", "gold": "SKU-MS-W", "budget": 40, "tags": ["stand", "laptop"]}
+{"id": "e06", "query": "RGB mechanical keyboard, confirm inventory", "gold": "SKU-KB-RGB", "budget": 89, "tags": ["keyboard", "rgb"]}

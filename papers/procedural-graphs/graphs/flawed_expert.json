@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "id": "Start",
+      "kind": "state",
+      "description": "Episode start marker"
+    },
+    {
+      "id": "End",
+      "kind": "state",
+      "description": "Terminal / answer emitted"
+    },
+    {
+      "id": "Search",
+      "kind": "tool",
+      "description": "Search"
+    },
+    {
+      "id": "Answer",
+      "kind": "tool",
+      "description": "Answer too early"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Start",
+      "relation": "LEADS_TO",
+      "target": "Search",
+      "attrs": {
+        "condition": "always",
+        "guidance": "Search then answer immediately.",
+        "pitfalls": ""
+      }
+    },
+    {
+      "source": "Search",
+      "relation": "LEADS_TO",
+      "target": "Answer",
+      "attrs": {
+        "condition": "any hit",
+        "guidance": "Pick the first search hit and answer.",
+        "pitfalls": "This prior skips inventory and verification."
+      }
+    },
+    {
+      "source": "Answer",
+      "relation": "LEADS_TO",
+      "target": "End",
+      "attrs": {
+        "condition": "done",
+        "guidance": "Stop.",
+        "pitfalls": ""
+      }
+    }
+  ]
+}

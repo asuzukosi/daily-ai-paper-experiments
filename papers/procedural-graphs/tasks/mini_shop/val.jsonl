@@ -1,0 +1,4 @@
+{"id": "v01", "query": "In-stock USB-C hub within $50 budget", "gold": "SKU-HUB-7", "budget": 50, "tags": ["usb-c", "hub"]}
+{"id": "v02", "query": "Wireless quiet mouse under $30", "gold": "SKU-MS-W", "budget": 30, "tags": ["mouse", "wireless"]}
+{"id": "v03", "query": "1080p webcam for meetings, in stock", "gold": "SKU-WC-1080", "budget": 55, "tags": ["webcam"]}
+{"id": "v04", "query": "Mechanical keyboard RGB under $100", "gold": "SKU-KB-RGB", "budget": 100, "tags": ["keyboard"]}
