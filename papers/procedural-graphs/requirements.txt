@@ -1,0 +1,10 @@
+# Core (CPU demo / schemas / loop)
+pyyaml>=6.0
+
+# Optional GPU path (Qwen2.5-7B-Instruct via transformers)
+# Install with: pip install -e ".[gpu]"
+# torch>=2.2.0
+# transformers>=4.44.0
+# accelerate>=0.33.0
+# sentencepiece>=0.2.0
+# huggingface_hub>=0.24.0

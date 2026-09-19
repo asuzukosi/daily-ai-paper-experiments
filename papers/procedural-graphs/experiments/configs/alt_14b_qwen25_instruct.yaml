@@ -1,0 +1,18 @@
+name: alt_14b_qwen25_instruct
+backend: transformers
+model_id: Qwen/Qwen2.5-14B-Instruct
+K: 2
+max_new_tokens: 256
+temperature: 0.0
+torch_dtype: bfloat16
+task_dir: tasks/mini_shop
+artifacts_subdir: alt_14b
+init: skeleton
+hop: 2
+history_window: 3
+resources:
+  gpu: "1x A100 80GB"
+  vram_gb: "80+"
+  ram_gb: "96+"
+  disk_gb: "100+"
+  wall_clock: "2-4 h"

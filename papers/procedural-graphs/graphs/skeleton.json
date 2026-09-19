@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "Start",
+      "kind": "state",
+      "description": "Episode start marker"
+    },
+    {
+      "id": "End",
+      "kind": "state",
+      "description": "Terminal / answer emitted"
+    },
+    {
+      "id": "Search",
+      "kind": "tool",
+      "description": "Search catalog / facts"
+    },
+    {
+      "id": "CheckInventory",
+      "kind": "tool",
+      "description": "Verify stock and constraints"
+    },
+    {
+      "id": "Compare",
+      "kind": "reasoning",
+      "description": "Compare candidate options"
+    },
+    {
+      "id": "Verify",
+      "kind": "reasoning",
+      "description": "Verify answer before commit"
+    },
+    {
+      "id": "Answer",
+      "kind": "tool",
+      "description": "Emit final answer / checkout"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Start",
+      "relation": "LEADS_TO",
+      "target": "Search",
+      "attrs": {
+        "condition": "new query",
+        "guidance": "Search for the requested item or fact first.",
+        "pitfalls": "Do not answer without searching when tools are available."
+      }
+    },
+    {
+      "source": "Search",
+      "relation": "LEADS_TO",
+      "target": "CheckInventory",
+      "attrs": {
+        "condition": "search returned candidates",
+        "guidance": "Check inventory/price constraints on the top hit.",
+        "pitfalls": "Avoid repeating Search with the same query."
+      }
+    },
+    {
+      "source": "CheckInventory",
+      "relation": "LEADS_TO",
+      "target": "Compare",
+      "attrs": {
+        "condition": "multiple viable candidates or need ranking",
+        "guidance": "Compare candidates against budget and requirements.",
+        "pitfalls": "Do not buy before comparing when alternatives exist."
+      }
+    },
+    {
+      "source": "Compare",
+      "relation": "LEADS_TO",
+      "target": "Verify",
+      "attrs": {
+        "condition": "preferred candidate selected",
+        "guidance": "Verify the chosen item matches the query constraints.",
+        "pitfalls": "Skipping verify causes wrong checkouts."
+      }
+    },
+    {
+      "source": "Verify",
+      "relation": "LEADS_TO",
+      "target": "Answer",
+      "attrs": {
+        "condition": "verification passed",
+        "guidance": "Emit the final answer / product id.",
+        "pitfalls": "Do not invent SKUs not seen in observations."
+      }
+    },
+    {
+      "source": "Answer",
+      "relation": "LEADS_TO",
+      "target": "End",
+      "attrs": {
+        "condition": "answer emitted",
+        "guidance": "Stop.",
+        "pitfalls": ""
+      }
+    },
+    {
+      "source": "Search",
+      "relation": "FALLBACK",
+      "target": "Search",
+      "attrs": {
+        "condition": "empty results",
+        "guidance": "Broaden query once, then move on.",
+        "pitfalls": "Do not loop Search more than twice."
+      }
+    }
+  ]
+}

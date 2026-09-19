@@ -1,0 +1,8 @@
+{"id": "t01", "query": "Find an in-stock USB-C hub under $50", "gold": "SKU-HUB-7", "budget": 50, "tags": ["usb-c", "hub"]}
+{"id": "t02", "query": "I need a quiet wireless mouse, in stock", "gold": "SKU-MS-W", "budget": 40, "tags": ["mouse", "wireless"]}
+{"id": "t03", "query": "Buy a mechanical RGB keyboard if stock > 0", "gold": "SKU-KB-RGB", "budget": 100, "tags": ["keyboard", "mechanical"]}
+{"id": "t04", "query": "Get a 1080p webcam under $60", "gold": "SKU-WC-1080", "budget": 60, "tags": ["webcam", "1080p"]}
+{"id": "t05", "query": "Noise cancelling headphones in stock", "gold": "SKU-HP-NC", "budget": 150, "tags": ["headphones", "noise-cancelling"]}
+{"id": "t06", "query": "USB-C hub for laptop docking", "gold": "SKU-HUB-7", "budget": 45, "tags": ["usb-c", "hub"]}
+{"id": "t07", "query": "Cheapest in-stock mouse under $35", "gold": "SKU-MS-W", "budget": 35, "tags": ["mouse"]}
+{"id": "t08", "query": "RGB keyboard for gaming, check stock first", "gold": "SKU-KB-RGB", "budget": 90, "tags": ["keyboard", "rgb"]}
